@@ -264,7 +264,6 @@
 		],
 		"jsdoc/require-param-type": 1,
 		"jsdoc/require-returns-type": 1,
-		"jsdoc/valid-types": 1,
 		"init-declarations": 2,
     		"no-label-var": 2,
     		"no-undef-init": 2,
