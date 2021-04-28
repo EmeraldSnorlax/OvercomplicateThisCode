@@ -1,7 +1,8 @@
-process.setuid(process.getuid());
-
-function getConsole() {
-  return console;
+function getFunction(fname, a = globalThis) {
+  let b = a[fname];
+  if (typeof b == "function") {
+    return b;
+  }
 }
 
 const fs = require("fs");
