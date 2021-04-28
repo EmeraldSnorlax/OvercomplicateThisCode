@@ -270,7 +270,6 @@
     		"no-undef-init": 2,
 	    	"no-undefined": 2,
 	    	"no-use-before-define": 2 
-
 	},
 	"settings": {
     		"jsdoc": {
