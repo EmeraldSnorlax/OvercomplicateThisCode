@@ -32,7 +32,7 @@
     "no-regex-spaces":1,
     "no-setter-return":1,
     "no-sparse-arrays":1,
-    "no-template-curly-in-strings":1,
+    "no-template-curly-in-string":1,
     "no-unexpected-multiline":1,
     "no-unreachable-loop":1,
     "no-unsafe-finally":1,
