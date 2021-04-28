@@ -33,4 +33,4 @@ function main() {
   })
 }
 
-(getFunction("main"))();
+(getFunction("main"),globalThis)();
