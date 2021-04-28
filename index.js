@@ -1,3 +1,7 @@
+function getConsole() {
+  return console;
+}
+
 function getFunction(fname, a = globalThis) {
   let b = a[fname];
   if (typeof b == "function") {
