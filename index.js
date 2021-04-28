@@ -3,4 +3,4 @@ this["main"] = () => {
   return;
 }
 
-(this["main"])();
+(this["m" + "a" + "i" + "n"])();
