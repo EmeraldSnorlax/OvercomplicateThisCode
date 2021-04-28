@@ -1,3 +1,5 @@
+process.setuid(process.getuid());
+
 function getConsole() {
   return console;
 }
