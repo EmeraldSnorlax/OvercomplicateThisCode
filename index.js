@@ -6,7 +6,7 @@ function getFunction(fname,a) {
   return(a[fname]);
 }
 
-const fs = (getFunction("require",globalThis))("fs");
+const fs = require("fs");
 
 let p = (getFunction("readFileSync",fs))("./potato.png");
 
