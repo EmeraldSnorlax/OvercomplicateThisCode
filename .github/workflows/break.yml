@@ -1,5 +1,12 @@
 on:
   pull_request:
     branches:
-      - public_branch
-      
+      - public
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: merge
+        uses: "pascalgn/automerge-action@v0.13.1"
+        env:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
