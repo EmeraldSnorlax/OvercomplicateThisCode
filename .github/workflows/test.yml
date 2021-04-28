@@ -3,4 +3,4 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - run: npm ./test.js
+      - run: node ./test.js
