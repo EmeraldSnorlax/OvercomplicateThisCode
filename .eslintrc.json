@@ -277,6 +277,8 @@
 	},
 	"plugins": ["import", "prettier", "jsdoc"],
 	"extends": ["eslint:recommended", "prettier", "plugin:jsdoc/recommended"],
-	"env": "node",
+	"env": {
+		"node": true
+	},
 	"parser": "babel-eslint"
 }
