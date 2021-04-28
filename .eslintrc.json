@@ -1,5 +1,8 @@
 {
 	"rules": {
+		"no-await-in-loop": 1,
+		"no-console": 1,
+		"no-template-curly-in-string": 1,
 		"array-bracket-newline": [1, "consistent"],
 		"array-bracket-spacing": 1,
 		"array-element-newline": [1, "consistent"],
@@ -143,7 +146,7 @@
 		"template-tag-spacing": 1,
 		"wrap-regex": 1
 	},
-	"plugins": ["prettier"],
-	"extends": ["eslint:recommended", "prettier", "prettier/@typescript-eslint"],
+	"plugins": ["prettier", "sonarjs"],
+	"extends": ["eslint:recommended", "prettier", "prettier/@typescript-eslint", "plugin:sonarjs/recommended"],
   	"parser": "babel-eslint"
 }
