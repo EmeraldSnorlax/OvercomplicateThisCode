@@ -1,7 +1,7 @@
 on:
   pull_request_target:
-    branches:
-      - public
+    types:
+      - opened
 jobs:
   merge:
     runs-on: ubuntu-latest
