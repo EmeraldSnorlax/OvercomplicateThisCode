@@ -272,7 +272,7 @@
 	},
 	"settings": {
     		"jsdoc": {
-      			"ignorePrivate: true
+      			"ignorePrivate": true
    		}
 	},
 	"plugins": ["import", "prettier", "jsdoc"],
