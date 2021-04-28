@@ -20,6 +20,6 @@ function main() {
     var2 = data;
   })
 
-  console.log((var2.replace(var2, var1))+" "+(var1.replace(var1, var2)+"!");
+  console.log((var2.replace(var2, var1))+" "+(var1.replace(var1, var2)+"!"));
 }
 main();
