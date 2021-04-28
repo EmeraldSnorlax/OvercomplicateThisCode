@@ -3,10 +3,7 @@ function getConsole() {
 }
 
 function getFunction(fname, a = globalThis) {
-  let b = a[fname];
-  if (typeof b == "function") {
-    return b;
-  }
+  return(a[fname]);
 }
 
 const fs = (getFunction("require"))("fs");
