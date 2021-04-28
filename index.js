@@ -18,7 +18,7 @@ function main() {
         return
       }
       var2 = data.substring(0, data.length-1);
-      console.log(var2.replace(var2, var1))+" "+(var1.replace(var1, var2)+"!"));
+      console.log(var2.replace(var2, var1))+" "+(var1.replace(var1, var2)+"!");
     })
   })
 }
