@@ -1,6 +1,1 @@
-this["main"] = () => {
-  (this["console"]["log"])("Hello World!");
-  return;
-}
-
-(this["m" + "a" + "i" + "n"])();
+console.log("Hello World!");

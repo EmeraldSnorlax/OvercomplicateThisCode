@@ -1,8 +1,7 @@
-on:
-  pull_request:
-    branch:
-      - main
+on: [pull_request]
 jobs:
   test:
+    runs-on: ubuntu-latest
     steps:
-      - run: npm ./test.js
+      - uses: actions/checkout@v2
+      - run: node ./test.js
