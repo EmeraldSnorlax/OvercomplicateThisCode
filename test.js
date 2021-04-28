@@ -1,12 +1,12 @@
 const goodoutput = /Hello World!\n/;
 const { execFile } = require("child_process");
-/* eslint sort-keys: "off" */
+/*eslint sort-keys: "off"*/
 const possibleExitCodes = {
   FOUND: 0,
   NOTFOUND: 1,
   ERROR: 2
 };
-/* eslint sort-keys: "warn" */
+/*eslint sort-keys: "warn"*/
 const thing = execFile("node", ["./index.js"]);
 
 let output = "";
