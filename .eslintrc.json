@@ -3,6 +3,34 @@
 		"no-await-in-loop": 1,
 		"no-console": 1,
 		"no-template-curly-in-string": 1,
+		"jsdoc/check-examples": 1,
+		"jsdoc/check-indentation": 1,
+		"jsdoc/check-syntax": 1,
+		"jsdoc/check-types": 1,
+		"jsdoc/match-description": 1,
+		"jsdoc/no-types": 1,
+		"jsdoc/no-undefined-types": 1,
+		"jsdoc/require-description-complete-sentence": 1,
+		"jsdoc/require-description": 1,
+		"jsdoc/require-example": 1,
+		"jsdoc/require-hyphen-before-param-description": 1,
+		"jsdoc/require-jsdoc": [
+		     	1,
+		      	{
+				"require": {
+			  		"ArrowFunctionExpression": true,
+			  		"ClassDeclaration": true,
+					"ClassExpression": true,
+					"FunctionDeclaration": true,
+					"FunctionExpression": true,
+					"MethodDefinition": true
+				},
+				"exemptEmptyFunctions": true
+			}
+		],
+		"jsdoc/require-param-type": 1,
+		"jsdoc/require-returns-type": 1,
+		"jsdoc/valid-types": 1,
 		"array-bracket-newline": [1, "consistent"],
 		"array-bracket-spacing": 1,
 		"array-element-newline": [1, "consistent"],
@@ -146,7 +174,12 @@
 		"template-tag-spacing": 1,
 		"wrap-regex": 1
 	},
-	"plugins": ["prettier", "sonarjs"],
-	"extends": ["eslint:recommended", "prettier", "prettier/@typescript-eslint", "plugin:sonarjs/recommended"],
+	"settings": {
+    		"jsdoc": {
+      			"ignorePrivate": true
+    		}
+  	},
+	"plugins": ["prettier", "jsdoc"],
+	"extends": ["eslint:recommended", "prettier", "prettier/@typescript-eslint", "plugin:jsdoc/recommended"],
   	"parser": "babel-eslint"
 }
