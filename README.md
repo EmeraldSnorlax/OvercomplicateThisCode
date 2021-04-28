@@ -1,5 +1,6 @@
 # OvercomplicateThisCode
-[![CodeFactor](https://www.codefactor.io/repository/github/xthisx/overcomplicatethiscode/badge)](https://www.codefactor.io/repository/github/xthisx/overcomplicatethiscode)
+[![CodeFactor](https://www.codefactor.io/repository/github/xthisx/overcomplicatethiscode/badge)](https://www.codefactor.io/repository/github/xthisx/overcomplicatethiscode) (lol)
+
 Make it as stupid as possible while still making it write "Hello World" to the console
 
 PR Merge Test:
