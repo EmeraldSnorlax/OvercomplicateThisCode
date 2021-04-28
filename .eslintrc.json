@@ -36,8 +36,12 @@
 		],
 		"symbol-description": 2,
 		"template-curly-spacing": 2,
-		"yield-star-spacing": [2, "after"]
+		"yield-star-spacing": [2, "after"],
+		"import/exports-last": 2,
+    		"import/no-default-export": 2,
+    		"import/group-exports": 2
 	},
+	"plugins": ["import"],
 	"extends": ["eslint:recommended"],
 	"parser": "babel-eslint"
 }
