@@ -144,6 +144,6 @@
 		"wrap-regex": 1
 	},
 	"plugins": ["prettier"],
-	"extends": ["eslint:recommended", "prettier", "prettier/@typescript-eslint"]
-  "parser": "babel-eslint"
+	"extends": ["eslint:recommended", "prettier", "prettier/@typescript-eslint"],
+  	"parser": "babel-eslint"
 }
