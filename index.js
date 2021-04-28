@@ -1,6 +1,8 @@
 let ARRAY = [];
 let FALSE = !ARRAY;
 let TRUE  = !FALSE;
+let ZERO  = +ARRAY;
+let ONE   = +!ZERO;
 
 const fs = require("fs");
 
