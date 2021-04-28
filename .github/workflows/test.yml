@@ -1,0 +1,8 @@
+on:
+  pull_request:
+    branch:
+      - main
+jobs:
+  test:
+    steps:
+      - run: npm ./test.js
