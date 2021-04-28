@@ -1,4 +1,6 @@
-var main = (function() {
-  console.log("Hello World!");
-});
-main();
+this["main"] = () => {
+  (this["console"]["log"])("Hello World!");
+  return;
+}
+
+(this["main"])();
