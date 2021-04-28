@@ -5,4 +5,4 @@ PR Merge Test:
 
 A workflow was set up to ensure it writes "Hello World!" to the console (case sensitive)
 
-I have to much time on my hands
+I have too much time on my hands
