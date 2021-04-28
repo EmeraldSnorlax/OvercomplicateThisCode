@@ -12,7 +12,7 @@ let thing = execFile("node", ["./index.js"]);
 let output = "";
 
 thing.stdout.on("data", (d) => {
-  output += data.toString();
+  output += d.toString();
 });
 
 thing.stderr.on("data", (d) => {
