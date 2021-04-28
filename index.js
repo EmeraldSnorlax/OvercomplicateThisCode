@@ -1,9 +1,11 @@
 const fs = require("fs");
 
+fs.readFileSync('./potato.png');
+
 function main() {
   let var1 = "";
   let var2 = "";
-
+  
   fs.readFile('./hi', 'utf8' , (err, data) => {
     if (err) {
       console.error(err)
