@@ -38,7 +38,7 @@
     "no-unsafe-finally":1,
     "no-unsafe-negation":1,
     "no-unsafe-optional-chaining":1,
-    "no-useless-backrefrence":1,
+    "no-useless-backreference":1,
     "require-atomic-updates":1,
     "use-isnan":1,
     "valid-typeof":1
