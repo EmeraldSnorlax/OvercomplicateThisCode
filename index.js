@@ -3,6 +3,20 @@ a.getConsole = () => {
   return console;
 }
 
+a.isTrue(value) {
+  if (value) {
+    return true
+  }
+  else return false
+}
+
+a.isFalse(value) {
+  if (getFunction("isTrue",a)(value)) {
+    return false
+  }
+  else return true
+}
+
 global.getFunction = (fname,a) => {
   return(a[fname]);
 }
@@ -16,14 +30,14 @@ function main() {
   let var2 = "";
   
   (getFunction("readFile",fs))('./hi', 'utf8' , (err, data) => {
-    if (err) {
+    if (getFunction("isTrue",a)(err)) {
       let c = (getFunction("getConsole",a))()
       (getFunction("error",c))(err)
       return
     }
     var1 = data;
     (getFunction("readFile",fs))('./hi2', 'utf8' , (err, data) => {
-      if (err) {
+      if (getFunction('isTrue',a)(err)) {
         let c = (getFunction("getConsole",a))()
         (getFunction("error",c))(err)
         return
