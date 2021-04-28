@@ -1,3 +1,6 @@
+/* eslintconfig { */
+/* eslint sort-keys: ["error", "asc"] */
+/* } */
 const goodoutput = /Hello World!\n/;
 const { execFile } = require("child_process");
 const possibleExitCodes = {
