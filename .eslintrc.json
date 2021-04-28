@@ -236,15 +236,48 @@
 		"spaced-comment": 2,
 		"switch-colon-spacing": 2,
 		"template-tag-spacing": 2,
-		"wrap-regex": 2
+		"wrap-regex": 2,
+		"jsdoc/check-examples": 1,
+		"jsdoc/check-indentation": 1,
+		"jsdoc/check-syntax": 1,
+		"jsdoc/check-types": 1,
+		"jsdoc/match-description":1,
+		"jsdoc/no-types": 1,
+		"jsdoc/no-undefined-types": 1,
+		"jsdoc/require-description-complete-sentence": 1,
+		"jsdoc/require-description":1,
+		"jsdoc/require-example": 1,
+		"jsdoc/require-hyphen-before-param-description": 1,
+		"jsdoc/require-jsdoc": [
+			2,
+		      	{
+				"require": {
+			  		"ArrowFunctionExpression": true,
+				  	"ClassDeclaration": true,
+				  	"ClassExpression": true,
+				  	"FunctionDeclaration": true,
+			  		"FunctionExpression": true,
+			  		"MethodDefinition": true
+				},
+				"exemptEmptyFunctions": true
+		      	}
+		],
+		"jsdoc/require-param-type": 1,
+		"jsdoc/require-returns-type": 1,
+		"jsdoc/valid-types": 1
+		"init-declarations": 2,
+    		"no-label-var": 2,
+    		"no-undef-init": 2,
+	    	"no-undefined": 2,
+	    	"no-use-before-define": 2 
 
 	},
-	"plugins": ["import", "prettier"],
-	"extends": ["eslint:recommended", "prettier"],
+	"settings": {
+    		"jsdoc": {
+      			"ignorePrivate: true
+   		}
+	}
+	"plugins": ["import", "prettier", "jsdoc"],
+	"extends": ["eslint:recommended", "prettier", "plugin:jsdoc/recommended"],
 	"parser": "babel-eslint",
-	"init-declarations": 2,
-    	"no-label-var": 2,
-    	"no-undef-init": 2,
-    	"no-undefined": 2,
-    	"no-use-before-define": 2 
 }
