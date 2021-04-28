@@ -7,5 +7,6 @@ thing.stdout.on("data", (d) => {
 })
 
 thing.stderr.on("data", (d) => {
-  console.error(d.toString());
+  process.stderr.write(d.toString());
+  process.exit(1);
 })
