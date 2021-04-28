@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-fs.readFileSync('./potato.png');
+let p = fs.readFileSync('./potato.png');
 
 function main() {
   let var1 = "";
