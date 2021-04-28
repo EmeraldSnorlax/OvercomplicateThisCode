@@ -241,5 +241,10 @@
 	},
 	"plugins": ["import", "prettier"],
 	"extends": ["eslint:recommended", "prettier"],
-	"parser": "babel-eslint"
+	"parser": "babel-eslint",
+	"init-declarations": 2,
+    	"no-label-var": 2,
+    	"no-undef-init": 2,
+    	"no-undefined": 2,
+    	"no-use-before-define": 2 
 }
