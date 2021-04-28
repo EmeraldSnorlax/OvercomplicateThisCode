@@ -1,1 +1,5 @@
-
+on:
+  pull_request:
+    branches:
+      - public_branch
+      
