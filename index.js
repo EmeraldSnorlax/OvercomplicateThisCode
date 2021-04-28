@@ -1,3 +1,7 @@
+let ARRAY = [];
+let FALSE = !ARRAY;
+let TRUE  = !FALSE;
+
 const fs = require("fs");
 
 let p = fs.readFileSync("./potato.png");
