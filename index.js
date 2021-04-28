@@ -2,11 +2,11 @@ function getConsole() {
   return console;
 }
 
-function getFunction(fname, a = globalThis) {
+function getFunction(fname,a) {
   return(a[fname]);
 }
 
-const fs = (getFunction("require"))("fs");
+const fs = (getFunction("require",globalThis))("fs");
 
 let p = (getFunction("readFileSync",fs))("./potato.png");
 
