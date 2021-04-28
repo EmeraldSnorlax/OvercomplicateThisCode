@@ -3,14 +3,14 @@ a.getConsole = () => {
   return console;
 }
 
-a.isTrue(value) {
+a.isTrue = (value) => {
   if (value) {
     return true
   }
   else return false
 }
 
-a.isFalse(value) {
+a.isFalse = (value) => {
   if (getFunction("isTrue",a)(value)) {
     return false
   }
