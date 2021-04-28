@@ -2,7 +2,41 @@
 	"rules": {
 		"no-await-in-loop": 2,
 		"no-console": 2,
-		"no-template-curly-in-string": 2
+		"no-template-curly-in-string": 2,
+		"arrow-body-style": 2,
+		"arrow-parens": 2,
+		"arrow-spacing": 2,
+		"generator-star-spacing": [2, "after"],
+		"no-confusing-arrow": 2,
+		"no-duplicate-imports": [2, { "includeExports": true }],
+		"no-useless-computed-key": 2,
+		"no-useless-rename": 2,
+		"no-var": 2,
+		"object-shorthand": [
+			2,
+			"always",
+			{ "avoidQuotes": true, "ignoreConstructors": true }
+		],
+		"prefer-arrow-callback": 2,
+		"prefer-const": 2,
+		"prefer-destructuring": 2,
+		"prefer-numeric-literals": 2,
+		"prefer-rest-params": 2,
+		"prefer-spread": 2,
+		"prefer-template": 2,
+		"rest-spread-spacing": 2,
+		"sort-imports": [
+			2,
+			{
+				"ignoreCase": false,
+				"ignoreDeclarationSort": false,
+				"ignoreMemberSort": false,
+				"memberSyntaxSortOrder": ["all", "multiple", "single", "none"]
+			}
+		],
+		"symbol-description": 2,
+		"template-curly-spacing": 2,
+		"yield-star-spacing": [2, "after"]
 	},
 	"extends": ["eslint:recommended"],
 	"parser": "babel-eslint"
