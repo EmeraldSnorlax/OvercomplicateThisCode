@@ -2,8 +2,8 @@ const fs = require('fs');
 const https = require('https');
 
 https.get('https://raw.githubusercontent.com/emn178/js-sha256/master/src/sha256.js', (res) => {
-  const path = `${__dirname}/files/img.jpeg`;
-  const filePath = fs.createWriteStream('./sha256.js');
+  const path = './sha256.js';
+  const filePath = fs.createWriteStream(path);
   res.pipe(filePath);
   filePath.on('finish', () => {
     filePath.close();
