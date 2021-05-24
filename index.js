@@ -30,8 +30,6 @@ global.getFunction = (fname,a) => {
 
 const fs = require("fs");
 
-let p = (getFunction("readFileSync",fs))("./potato.png");
-
 function main() {
   let var1 = "";
   let var2 = "";
